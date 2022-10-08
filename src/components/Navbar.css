@@ -1,0 +1,40 @@
+.navbar {
+  height: 8vh;
+  line-height: 6vh;
+  background-color: #2F3E46;
+  color: #CAD2C5;
+  font-family: 'Josefin Sans', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vh;
+}
+
+.movingName {
+  display: flex;
+  border: 1px red solid;
+}
+
+.movingName:hover {
+  color: #f8f9fa;
+}
+
+.pageLinks {
+  width: 375px;
+  /* border: 1px red solid; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.anchorLink {
+  text-decoration: none;
+  font-size: 20px;
+  color: #CAD2C5;
+  transition: 150ms ease-in-out;
+}
+
+.anchorLink:hover {
+  color: #f8f9fa;
+  margin-top: -0.5vh;
+  border-bottom: #f8f9fa 2px solid;
+}
