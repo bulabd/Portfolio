@@ -28,3 +28,17 @@
   text-align: left;
   font-size: 25px;
 }
+
+.connect {
+  text-decoration: none;
+  color: #2F3E46;
+  font-size: 30px;
+  padding: 8px 8px;
+  border-radius: 10px;
+  transition: 150ms ease-in-out;
+}
+
+.connect:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: scale(1.2);
+}
