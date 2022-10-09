@@ -1,0 +1,30 @@
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 92vh;
+  background-color: #31CB8D;
+  color: white;
+}
+
+.firstGreeting {
+  text-align: left;
+}
+
+.hello {
+  color: #2F3E46;
+  font-size: 6vw;
+  margin: 0;
+}
+
+.myname {
+  font-size: 4vw;
+  margin: 0;
+}
+
+.summary {
+  width: 50vw;
+  text-align: left;
+  font-size: 25px;
+}
