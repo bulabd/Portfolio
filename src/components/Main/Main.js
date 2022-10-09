@@ -1,9 +1,10 @@
 import './Main.css';
+import About from './About.js';
 
 export default function Main() {
   return (
     <div className='main'>
-      <h1>MAIN</h1>
+      <About />
     </div>
   );
 }
