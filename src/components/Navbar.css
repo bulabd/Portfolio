@@ -1,6 +1,5 @@
 .navbar {
   height: 8vh;
-  line-height: 6vh;
   background-color: #2F3E46;
   color: #CAD2C5;
   font-family: 'Josefin Sans', cursive;
@@ -10,18 +9,31 @@
   padding: 0 2vh;
 }
 
-.movingName {
+.letter {
   display: flex;
-  border: 1px red solid;
+  text-decoration: none;
+  color: #CAD2C5;
+  transition: 150ms ease-in-out;
 }
 
-.movingName:hover {
+.name {
+  text-align: left;
+  width: 0px;
+  overflow: hidden;
+  transition: 150ms ease-in-out;
+}
+
+.letter:hover {
   color: #f8f9fa;
+}
+
+.letter:hover .name {
+  width: 70px;
+  overflow: visible;
 }
 
 .pageLinks {
   width: 375px;
-  /* border: 1px red solid; */
   display: flex;
   justify-content: space-between;
 }
@@ -30,7 +42,7 @@
   text-decoration: none;
   font-size: 20px;
   color: #CAD2C5;
-  transition: 150ms ease-in-out;
+  transition: 200ms ease-in-out;
 }
 
 .anchorLink:hover {
