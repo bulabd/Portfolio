@@ -1,3 +1,82 @@
 .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+}
+
+.aboutMe {
+  font-size: 6vw;
+  /* margin-bottom: 0; */
+}
+
+.imageAndAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+  object-position: 25% 25%;
+  border-radius: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  transition: 150ms ease-in-out;
+  padding: 5px;
+
+
+  border: 2px #31CB8D solid;
+}
+
+.profile:hover {
+  transform: scale(1.1);
+}
+
+.profileContainer {
+  margin-right: 2vw;
+}
+
+.myStory {
+  font-size: 25px;
+  text-align: left;
+  width: 40vw;
+}
+
+.lighthouse {
+  text-decoration: none;
+  color: #31CB8D;
+
+  display: inline-block;
+}
+
+.lighthouse::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #31CB8D;
+  transition: width .4s ease-in;
+}
+
+.lighthouse:hover::after {
+  width: 100%;
+}
+
+.skillsIntro {
+  font-size: 25px;
+  margin-left: 5vw;
+  margin-right: 5vw; 
+}
+
+.skills {
+  font-size: 20px;
+  text-align: left;
+}
+
+.strong {
+  color: #31CB8D;
 }
