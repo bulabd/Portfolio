@@ -59,7 +59,7 @@
   width: 0;
   height: 2px;
   background: #31CB8D;
-  transition: width .4s ease-in;
+  transition: width .2s ease-in;
 }
 
 .lighthouse:hover::after {
