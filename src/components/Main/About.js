@@ -7,7 +7,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export default function About() {
   return (
-    <div className='about'>
+    <div className='about' id="about">
       <p className='aboutMe'>About me</p>
       <div className='imageAndAbout'>
         <div className='profileContainer'><img className='profile' src={require('../../docs/linkedinPic.jpg')} alt="Bulat profile pic"></img></div>
