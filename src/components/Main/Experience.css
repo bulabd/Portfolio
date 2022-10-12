@@ -1,0 +1,11 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.myExperience {
+  font-size: 6vw;
+}

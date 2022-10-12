@@ -8,7 +8,7 @@ export default function Navbar() {
       </div>
       <div className='pageLinks'>
         <a className='anchorLink' href="#about">About</a>
-        <a className='anchorLink' href="#">Experience</a>
+        <a className='anchorLink' href="#experience">Experience</a>
         <a className='anchorLink' href="#">Projects</a>
         <a className='anchorLink' href="#">Contact</a>
       </div>
