@@ -32,6 +32,7 @@ html {
   color: #2F3E46;
   background-color: #31CB8D;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .App-logo {
