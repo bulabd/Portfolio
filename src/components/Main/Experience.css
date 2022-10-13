@@ -9,3 +9,43 @@
 .myExperience {
   font-size: 6vw;
 }
+
+.work {
+  font-size: 20px;
+  border-left: 2px #31CB8D solid;
+  padding: 3px 8px;
+  transition: 300ms ease-in-out;
+}
+
+.work:hover {
+  transform: scale(1.5);
+}
+
+.year {
+  color: #31CB8D;
+}
+
+/* .location {
+  text-decoration: none;
+  color: #31CB8D;
+} */
+
+.location {
+  text-decoration: none;
+  color: #31CB8D;
+
+  display: inline-block;
+}
+
+.location::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #31CB8D;
+  transition: width .2s ease-in;
+}
+
+.location:hover::after {
+  width: 100%;
+}
