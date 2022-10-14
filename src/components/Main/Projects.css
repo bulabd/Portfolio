@@ -1,0 +1,11 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.myProjects {
+  font-size: 6vw;
+}
