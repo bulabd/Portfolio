@@ -9,7 +9,12 @@ export default function Projects() {
     require('../../docs/eac-p.png')
   ];
 
-  const slidesWikiMaps = [];
+  const slidesWikiMaps = [
+    require('../../docs/wikimaps-home.png'),
+    require('../../docs/wikimaps-create.png'),
+    require('../../docs/wikimaps-map.png'),
+    require('../../docs/wikimaps-edit.png')
+  ];
 
   return (
     <div id='projects' className='projects'>
