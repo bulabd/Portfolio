@@ -9,3 +9,23 @@
 .myProjects {
   font-size: 6vw;
 }
+
+.eac {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60vw;
+  height: 700px;
+  margin-bottom: 20px;
+}
+
+.wikiMaps {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60vw;
+  height: 700px;
+  margin-bottom: 20px;
+}
