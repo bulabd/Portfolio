@@ -3,6 +3,7 @@ import Greeting from './Greeting';
 import About from './About.js';
 import Experience from './Experience';
 import Projects from './Projects';
+import Contact from './Contact';
 
 export default function Main() {
   return (
@@ -11,6 +12,7 @@ export default function Main() {
       <About />
       <Experience />
       <Projects />
+      <Contact />
     </div>
   );
 }
