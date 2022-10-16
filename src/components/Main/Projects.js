@@ -45,6 +45,31 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      <span className='separator'></span>
+
+      <p className='subtitle'>Smaller Projects</p>
+      <section className='smallerProjects'>
+        <div className='smallP'>
+          <p className='smallPTitle'>Jungle Rails</p>
+          <p>A small online plant store.</p>
+          <p className='stack'>&gt;&gt; Ruby, Rails, HTML, SCSS, ActiveRecord</p>
+          <a className='githubIcon' href='https://github.com/bulabd/jungle-rails' target='blank'><FontAwesomeIcon icon={faGithub} /></a>
+        </div>
+        <div className='smallP'>
+          <p className='smallPTitle'>Scheduler</p>
+          <p>An app where students can book meetings with mentors.</p>
+          <p className='stack'>&gt;&gt; JavaScript, React, Axios</p>
+          <a className='githubIcon' href='https://github.com/bulabd/scheduler' target='blank'><FontAwesomeIcon icon={faGithub} /></a>
+        </div>
+        <div className='smallP'>
+          <p className='smallPTitle'>Tweeter</p>
+          <p>A "twitter-like app" where users can post tweets.</p>
+          <p className='stack'>&gt;&gt; HTML, CSS, JavaScript, jQuery</p>
+          <a className='githubIcon' href='https://github.com/bulabd/tweeter' target='blank'><FontAwesomeIcon icon={faGithub} /></a>
+        </div>
+      </section>
+      <p className='githubProfile'>And many more can be found on my <a className='githubProfileLink' href='https://github.com/bulabd' target='blank'>Github</a></p>
+
     </div>
   );
 };
