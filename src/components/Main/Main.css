@@ -1,5 +1,6 @@
 .main {
-  /* border: 1px red solid; */
   background-color: #2F3E46;
   color: #CAD2C5;
+  
+  min-width: 100vw;
 }
