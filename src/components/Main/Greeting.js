@@ -4,7 +4,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Greeting() {
   return (
-    <div className='greeting'>
+    <div id='greeting' className='greeting'>
       <div className='firstGreeting'>
         <p className='hello'>Hello there!</p>
         <p className='myname'>My name is Bulat Abdullin.</p>

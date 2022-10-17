@@ -5,3 +5,31 @@
   align-items: center;
   min-height: 100vh;
 }
+
+.contactMe {
+  font-size: 6vw;
+}
+
+.contactLinks {
+  font-size: 20px;
+  margin: 10px 20px;
+}
+
+.links {
+  text-decoration: none;
+  color: #31CB8D;
+  display: inline-block;
+}
+
+.links::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #31CB8D;
+  transition: width .2s ease-in;
+}
+
+.links:hover::after {
+  width: 100%;
+}
