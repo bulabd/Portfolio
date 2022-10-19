@@ -35,7 +35,7 @@ const ImageSlider = ({slides}) => {
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
         {slides.map((a, index) => (
-          <div key={index} className='slide'><img className='img' src={slides[index]}></img></div>
+          <div key={index} className='slide'><img alt='An image of the project' className='img' src={slides[index]}></img></div>
         ))}
       </div>
     </div>
