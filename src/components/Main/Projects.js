@@ -46,7 +46,6 @@ export default function Projects() {
         </div>
       </div>
       <span className='separator'></span>
-
       <p className='subtitle'>Smaller Projects</p>
       <section className='smallerProjects'>
         <div className='smallP'>
@@ -69,7 +68,6 @@ export default function Projects() {
         </div>
       </section>
       <p className='githubProfile'>And many more can be found on my <a className='githubProfileLink' href='https://github.com/bulabd' target='blank'>Github</a></p>
-
     </div>
   );
 };

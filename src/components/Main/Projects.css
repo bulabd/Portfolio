@@ -16,11 +16,8 @@
   justify-content: flex-start;
   align-items: center;
   width: 60vw;
-  /* height: 700px; */
   margin-bottom: 20px;
-
   position: relative;
-
   box-shadow: 0 0 5px 5px #243036;
   border-radius: 15px;
 }
@@ -66,7 +63,6 @@
 .fa-github:hover {
   transform: scale(1.2);
 }
-
 
 .githubIcon :first-child {
   margin: 0;

@@ -8,7 +8,6 @@
 
 .aboutMe {
   font-size: 6vw;
-  /* margin-bottom: 0; */
 }
 
 .imageAndAbout {
@@ -49,7 +48,6 @@
 .lighthouse {
   text-decoration: none;
   color: #31CB8D;
-
   display: inline-block;
 }
 
