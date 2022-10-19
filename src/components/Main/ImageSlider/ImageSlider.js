@@ -26,7 +26,7 @@ const ImageSlider = ({slides}) => {
     return () => {
       resetTimeout();
     };
-  }, [index]);
+  }, [index, slides.length]);
 
   return (
     <div className="slideshow">
